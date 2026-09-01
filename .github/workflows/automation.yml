@@ -50,13 +50,13 @@ jobs:
             echo "@wfcd/items did not change."
           fi
 
-      - name: Run Tests
-        if: steps.dependency_update.outputs.items_changed == 'true'
-        run: bun run test
-
       - name: Build Project
         if: steps.dependency_update.outputs.items_changed == 'true'
         run: bun run build
+
+      - name: Run Tests
+        if: steps.dependency_update.outputs.items_changed == 'true'
+        run: bun run test
 
       - name: Bump Package Version
         if: steps.dependency_update.outputs.items_changed == 'true'

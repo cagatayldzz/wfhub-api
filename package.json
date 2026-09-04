@@ -1,6 +1,6 @@
 {
   "name": "wfhub-codex",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "type": "module",
   "main": "dist/main.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "check": "bun run typecheck && bun run format:check && bun run lint && bun run test"
   },
   "dependencies": {
-    "@wfcd/items": "^1.1275.75"
+    "@wfcd/items": "^1.1275.79"
   },
   "devDependencies": {
     "@types/bun": "^1.4.0",

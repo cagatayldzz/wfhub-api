@@ -5,10 +5,10 @@
     "": {
       "name": "wfhub-codex",
       "dependencies": {
-        "@wfcd/items": "^1.1275.79",
+        "@wfcd/items": "^1.1275.81",
       },
       "devDependencies": {
-        "@types/bun": "^1.4.0",
+        "@types/bun": "^1.4.1",
         "@types/node": "^25.9.5",
         "oxfmt": "^0.45.0",
         "oxlint": "^1.81.0",
@@ -253,7 +253,7 @@
 
     "@vitest/utils": ["@vitest/utils@4.1.11", "", { "dependencies": { "@vitest/pretty-format": "4.1.11", "convert-source-map": "^2.0.0", "tinyrainbow": "^3.1.0" } }, "sha512-zTCVGpyFsGWBhllOyKlTw/vnr6D9qxsfSDyfbyZmTyjHw5N/VuvzHpHoQjm2ZJzn4RJgx5w4r7V0er69CmLgPQ=="],
 
-    "@wfcd/items": ["@wfcd/items@1.1275.81", "", { "peerDependencies": { "warframe-worldstate-data": "^3.0.0" } }, "sha512-J0yPQtZmot7yYHJGEokgKrwx4XTOGNVPdMtmMmsb1gU4o/u4oaZ0hLogn9Q+ogC87QPBa5tCDt+pHWCVZcu/eQ=="],
+    "@wfcd/items": ["@wfcd/items@1.1275.82", "", { "peerDependencies": { "warframe-worldstate-data": "^3.0.0" } }, "sha512-WC+1BQo4b+aV01dDqUMymUiIIK7kEDgNW2WXaZ5yguL/PuIE1Em/rpDADMfN1e3oagF0H3Ud5mmB8h+rPzX2uA=="],
 
     "assertion-error": ["assertion-error@2.0.1", "", {}, "sha512-Izi8RQcffqCeNVgFigKli1ssklIbpHnCYc6AknXGYoB6grJqyeby7jv12JUQgmTAnIDnbck1uxksT4dzN3PWBA=="],
 

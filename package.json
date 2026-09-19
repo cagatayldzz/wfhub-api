@@ -1,6 +1,6 @@
 {
   "name": "wfhub-codex",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "type": "module",
   "main": "dist/main.js",
   "scripts": {
@@ -19,16 +19,16 @@
     "check": "bun run typecheck && bun run format:check && bun run lint && bun run test"
   },
   "dependencies": {
-    "@wfcd/items": "^1.1275.87"
+    "@wfcd/items": "^1.1275.89"
   },
   "devDependencies": {
     "@types/bun": "^1.4.2",
-    "@types/node": "^25.9.7",
+    "@types/node": "^25.9.8",
     "oxfmt": "^0.45.0",
     "oxlint": "^1.83.0",
     "oxlint-tsgolint": "^0.20.0",
     "rimraf": "^6.1.3",
-    "turbo": "^2.10.13",
+    "turbo": "^2.11.2",
     "typescript": "^6.0.3",
     "vitest": "^4.1.11"
   },

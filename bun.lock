@@ -5,7 +5,7 @@
     "": {
       "name": "wfhub-codex",
       "dependencies": {
-        "@wfcd/items": "^1.1276.10",
+        "@wfcd/items": "^1.1276.12",
       },
       "devDependencies": {
         "@types/bun": "^1.4.2",
@@ -14,7 +14,7 @@
         "oxlint": "^1.86.0",
         "oxlint-tsgolint": "^0.20.0",
         "rimraf": "^6.1.3",
-        "turbo": "^2.11.5",
+        "turbo": "^2.11.6",
         "typescript": "^6.0.3",
         "vitest": "^4.1.11",
       },
@@ -237,7 +237,7 @@
 
     "@types/estree": ["@types/estree@1.0.8", "", {}, "sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w=="],
 
-    "@types/node": ["@types/node@25.9.8", "", { "dependencies": { "undici-types": ">=7.24.0 <7.24.7" } }, "sha512-VfMrScDmMhUJQmd5hArdQnFvK0OIeD36uN2Va1FcpYaLB/BgkgM8Ulc50XtYISPMz7APJ30+N0T5EM0jlcdfRw=="],
+    "@types/node": ["@types/node@25.9.9", "", { "dependencies": { "undici-types": ">=7.24.0 <7.24.7" } }, "sha512-b4e2xxj/yMeT2hNlD6x7zNFiQK2Dlmkb9CQ6v3/1G2RezKN4YS2lcEv8lzGm1mhs4f2lM4yNAMI/zUDBZBBt7w=="],
 
     "@vitest/expect": ["@vitest/expect@4.1.11", "", { "dependencies": { "@standard-schema/spec": "^1.1.0", "@types/chai": "^5.2.2", "@vitest/spy": "4.1.11", "@vitest/utils": "4.1.11", "chai": "^6.2.2", "tinyrainbow": "^3.1.0" } }, "sha512-VX2x5vNJXET47KAFzwERI+KRMtTTCSWTfSMKsW7JsUsXV4psq++e3DvZpuTDOpHcxytiDs6p2nhVb2tVDiiUYw=="],
 
@@ -253,7 +253,7 @@
 
     "@vitest/utils": ["@vitest/utils@4.1.11", "", { "dependencies": { "@vitest/pretty-format": "4.1.11", "convert-source-map": "^2.0.0", "tinyrainbow": "^3.1.0" } }, "sha512-zTCVGpyFsGWBhllOyKlTw/vnr6D9qxsfSDyfbyZmTyjHw5N/VuvzHpHoQjm2ZJzn4RJgx5w4r7V0er69CmLgPQ=="],
 
-    "@wfcd/items": ["@wfcd/items@1.1276.12", "", { "peerDependencies": { "warframe-worldstate-data": "^3.0.0" } }, "sha512-nmEau56bS6n0Y/daZou2vKpA/3jW6kP/FpHtnBPhPshlHSJdeHAJ940Rnq98DBffe9tjATRaBJwC8VAm0zIU4g=="],
+    "@wfcd/items": ["@wfcd/items@1.1276.16", "", { "peerDependencies": { "warframe-worldstate-data": "^3.0.0" } }, "sha512-p1uhpbLc2VkjP6SNF6XJg71vfCtZ8X4W080PGzuLrfISESsSUXbzpCluXAxmQbyqE1ucNEgwFFzzmE4kbV4OLA=="],
 
     "assertion-error": ["assertion-error@2.0.1", "", {}, "sha512-Izi8RQcffqCeNVgFigKli1ssklIbpHnCYc6AknXGYoB6grJqyeby7jv12JUQgmTAnIDnbck1uxksT4dzN3PWBA=="],
 
